@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="prod.css">
+</head>
+<body>
+
+<div class="form">
+  <form action="" method="post" id="form">
+    <div class="Prod">
+      <h1>PRODUCTOS</h1>
+    </div>
+
+    <div class="Prod">
+      <p>
+        <label for="Nombre produc">Nombre del producto</label><br>
+        <input type="text" name="Nombre produc" id="Nombre produc" placeholder="Nombre del producto" required><br>
+      </p>
+    </div>
+
+    <div class="Prod">
+      <p>
+        <label for="precio producto">Precio del producto</label><br>
+        <input type="number" name="precio producto" id="precio producto" placeholder="Precio del producto" required inputmode="numeric"><br>
+      </p>
+    </div>
+
+    <div class="Prod">
+      <p>
+        <label for="Cant producto">Cantidad de productos</label><br>
+        <input type="number" name="Cant producto" id="Cant producto" placeholder="Cantidad de productos" required inputmode="numeric"> <br>
+      </p>
+    </div>
+
+    <div class="Grupo">
+      <center><button id="boton" type="submit">Enviar Producto</button></center>
+    </div>
+  </form>
+</div>
+
+</body>
+<script src="produc.js"></script>
+<footer></footer>
+</html>
