@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    background-color: rgb(224, 231, 251);
+}
+
+nav {
+    background-color: rgb(72, 214, 59);
+    padding: 7px;
+}
+
+form {
+    background: #067676d1;
+    margin: 20px; 
+    border-radius: 10px;
+}
+
+.grup {
+    position: relative;
+    display: flex;
+    margin: 55px;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+.agregar {
+    text-align:right;
+}
+
+.grup label {
+    width: 100px;
+    text-align: left;
+}
+
+.grup input,
+.grup textarea {
+    width: calc(100% - 110px);
+}
+
+footer {
+    padding: 20px;;
+    display: flex;
+    background-color: rgb(72, 214, 59);
+}
