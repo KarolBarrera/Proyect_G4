@@ -2,7 +2,7 @@ body{
     display: flex;
     height: 450px;
     justify-content: center;
-    background: linear-gradient(to right,#8a2be2,#00ffff);
+    background: linear-gradient(to right,#ee80d2,#00ffff);
 }
 h1{
     text-align: center;
