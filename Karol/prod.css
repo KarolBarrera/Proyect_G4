@@ -23,5 +23,9 @@ h1 {
 #boton {
     display: block;
     margin: 0 auto;
+    background-color: #2f0657; ;
+    border: 2px solid #2cc5a6;
+    color: aliceblue;
+    border-radius: 10px;
 }
 
