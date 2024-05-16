@@ -2,11 +2,11 @@ body{
     display: flex;
     height: 450px;
     justify-content: center;
-    background: linear-gradient(to right,#96c7ff,#1067ca);
+    background: linear-gradient(to right,#929aa3,#b4753a);
 }
 
 form{
-    background: #e6d8f5;
+    background: #53be7c;
     margin: auto;
     padding: 15px;
     border-radius: 10px;
