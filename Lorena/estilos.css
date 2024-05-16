@@ -2,13 +2,13 @@ body{
     display: flex;
     height: 450px;
     justify-content: center;
-    background: linear-gradient(to right,#ee80d2,#00ffff);
+    background: linear-gradient(to right,#c26cac,#00ffff);
 }
 h1{
     text-align: center;
 }
 form{
-    background: #e6d7f5;
+    background: #cdb6e4;
     margin: auto;
     border-radius: 10px;
 }
