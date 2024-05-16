@@ -6,7 +6,7 @@ window.onload=function(){
         // validar nombre
         var nameinput=document.getElementById("name");
         if(nameinput.value.trim() === ""){
-            alert("El nombre no puede estar vacio");
+            alert("Ningún Campo puede quedar vacío");
             return false;
         }
         // validar email
