@@ -2,11 +2,11 @@ body{
     display: flex;
     height: 450px;
     justify-content: center;
-    background: linear-gradient(to right,#929aa3,#b4753a);
+    background: linear-gradient(to right,#4f9bf1,#0d2569);
 }
 
 form{
-    background: #53be7c;
+    background: #ffffff;
     margin: auto;
     padding: 15px;
     border-radius: 10px;
@@ -17,6 +17,8 @@ form.gupo{
     margin: 55px;
 }
 
-form.boton{
+#boton{
     text-align: center;
+    color: rgb(7, 7, 7);
+    background-color: rgb(173, 173, 177);
 }

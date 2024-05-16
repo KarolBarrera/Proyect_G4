@@ -5,7 +5,7 @@ window.onload=function(){
 
         // validar nombre
         var nameinput=document.getElementById("name");
-        if(nameinput.ariaValueMax.trim(=="")){
+        if(nameinput.ariaValueMax.trim("")){
             alert("El nombre no puede estar vacio");
             return false;
         }
