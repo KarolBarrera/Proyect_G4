@@ -2,17 +2,17 @@ body {
     padding: 0px;
     margin: 0px;
     justify-content: center;
-    background-color: rgb(224, 231, 251);
+    background-color: #f0f0f0; 
 }
 
 nav {
-    background-color: rgb(236, 146, 9);
+    background-color: #4CAF50; 
     padding: 7px;
 }
 
 form {
-    background: #067676d1;
-    margin: 20px; 
+    background: #3498db; 
+    margin: 20px;
     border-radius: 10px;
 }
 
@@ -39,10 +39,11 @@ h1 {
 .grup input,
 .grup textarea {
     width: calc(100% - 110px);
+    border: 2px solid #2ecc71;
 }
 
 footer {
     padding: 20px;;
     display: flex;
-    background-color: rgb(72, 214, 59);
+    background-color: #4CAF50; 
 }
