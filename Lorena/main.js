@@ -11,7 +11,7 @@ window.onload=function(){
         }
         // validar email
         var emailInput=document.getElementById("email");
-        var emailPattern= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        var emailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
         if(!emailPattern.test(emailInput.value.trim())){
             alert("El correo electronico ingresado no es valido");
             return false;
