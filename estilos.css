@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    background: linear-gradient(to right,#b4a51e,#1067ca);
+}
+
+form{
+    background: #f4f3f5;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form.gupo{
+    position: relative;
+    margin: 55px;
+}
+
+form.boton{
+    text-align: center;
+}
